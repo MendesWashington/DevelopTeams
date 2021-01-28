@@ -1,0 +1,3 @@
+2018-01-21 02:08:21 :: Inserindo produto novo
+2018-01-21 02:08:21 :: INSERT INTO produto (id, descricao, estoque, preco_custo, preco_venda, codigo_barra, data_cadastro, origem) VALUES ('3', 'Chocolate Junior', '80', '4', '7', '1465456456456465', '2018-01-21 02:08:21', 'J')
+2018-01-21 02:08:21 :: INSERT INTO produto (id, descricao, estoque, preco_custo, preco_venda, codigo_barra, data_cadastro, origem) VALUES ('4', 'Chocolate Bruna', '80', '4', '7', '2465456456456465', '2018-01-21 02:08:21', 'B')

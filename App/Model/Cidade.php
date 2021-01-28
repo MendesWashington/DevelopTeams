@@ -1,0 +1,7 @@
+<?php 
+//namespace Livro\Database\Record;
+use Livro\Database\Record;
+
+class Cidade extends Record{
+	const TABLENAME = 'cidade';
+}

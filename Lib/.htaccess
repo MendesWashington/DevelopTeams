@@ -1,0 +1,4 @@
+ReWriteEngine On
+ReWriteCond %{SCRIPT_FILENAME} !-f
+ReWriteCond %{SCRIPT_FILENAME} !-d
+ReWriteRule ^(.*)$ index.php?page=$1

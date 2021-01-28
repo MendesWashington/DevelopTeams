@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<div class="panel panel-success" style="margin:40px; ">
+		<div  class="panel-heading" style="background-color: red;"><b>{{title}}</b></div>
+		<div class="panel-body">
+			<form method="POST" action="{{action}}" class="form-horizontal">
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Descrição</label>
+						<div class="col-sm-10">
+							<input type="text" name="descricao" value="{{descricao}}" class="form-control input-lg">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Estoque</label>
+						<div class="col-sm-10">
+							<input type="text" name="estoque" value="{{estoque}}" class="form-control input-lg">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Preço Custo</label>
+						<div class="col-sm-10">
+							<input type="text" name="preco_custo" value="{{preco_custo}}" class="form-control input-lg">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Preço Venda</label>
+						<div class="col-sm-10">
+							<input type="text" name="preco_venda" value="{{preco_venda}}" class="form-control input-lg">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Código de Barra</label>
+						<div class="col-sm-10">
+							<input type="number" name="codigo_barra" value="{{codigo_barra}}" class="form-control input-lg">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Data de Cadastro</label>
+						<div class="col-sm-10">
+							<input type="date" name="data_cadastro" value="{{data_cadastro}}" class="form-control input-lg">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Origem do Produto</label>
+						<div class="col-sm-10">
+							<input type="text" name="origem" value="{{origem}}" class="form-control input-lg">
+						</div>
+					</div>
+
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-8">
+						<input type="submit" class="btn btn-success" value="enviar">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</html>
